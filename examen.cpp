@@ -7,7 +7,7 @@ void captura_datos()
 void suma_anios()
 void suma_periodos()
 void imprime_datos()
-
+printf("lol\n");
 void main ()
 {
 	void captura_datos()
@@ -54,7 +54,7 @@ printf("------------------\n");
 printf("------------------\n");	
 	}
     
-	int suma_anios();
+	void suma_anios();
 	{
 		for (a=0; a<aa; a++){/*for para mostrar las sumas de los ANIOS*/
        						 printf("La suma del anio %d es: \n", q=a+1);
@@ -66,7 +66,7 @@ printf("------------------\n");
 	printf("------------------\n");	
 	}
     
-	int suma_periodos();
+	void suma_periodos();
 	{
 		for (p=0; p<pp; p++){/*for para mostrar las sumas de los PERIODOS*/
         					printf("La suma del periodo %d es: \n", r=p+1);
@@ -76,7 +76,7 @@ printf("------------------\n");
                         	}	
 	}
 	
-	int imprime_datos();
+	void imprime_datos();
 	{
 		printf("%d \n", e);
 		printf("%d \n", d);	
